@@ -1,3 +1,20 @@
 Módulo A:
 
 Arquitetura Client x Server 
+
+Number() - Converte qualquer texto em número, seja int ou float
+String() / n.toString() - Converte em String
+
+//Template String
+`${s}`
+
+//Formatação de Strings
+s.length - Tamanho da String
+s.toUpperCase() - Transforma tudo em caixa alta(maiúscula)
+s.toLowerCase() - Transforma tudo em caixa baixa(minúscula)
+
+//Formatação de números
+
+n.toFixed(2)
+n.toFixed(2).replace('.', ',')
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
