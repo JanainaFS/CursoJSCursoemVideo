@@ -66,3 +66,19 @@ media >= 7 "Aprovado" : "Reprovado"
 
 //Document Object Model
 -> Árvore DOM
+Document Object Model
+-> Conjunto de objetos dentro do navegador que dá acesso aos componentes do site
+
+window(objeto maior, tudo está dentro dele)
+location document history
+         html
+        head            body
+        meta title      h1 p div
+                           strong
+
+-> Métodos de seleção de elementos dentro da árvore DOM
+por Marca - getElementsByTagName()
+por ID - getElementsById()
+por Nome - getElementsByName()
+por Classe - getElementsByClassName()
+por Seletor - querySelector() querySelectorAll()
