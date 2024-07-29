@@ -82,3 +82,17 @@ por ID - getElementsById()
 por Nome - getElementsByName()
 por Classe - getElementsByClassName()
 por Seletor - querySelector() querySelectorAll()
+
+//Eventos DOM
+Movimentos do Mouse
+- mouseenter
+- mousemove
+- mousedown
+- mouseup
+- click
+- mouseout
+
+//Funções
+function ação(parametro) {
+
+}
