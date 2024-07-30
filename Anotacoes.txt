@@ -96,3 +96,26 @@ Movimentos do Mouse
 function ação(parametro) {
 
 }
+
+//Condições
+- Condição simples
+if() {
+true
+}
+
+-Condição composta
+if() {
+true
+}else{
+false
+}
+
+- Condições aninhadas
+if() {
+true
+}else if (){
+false
+}
+
+Condição Múltipla
+Case
