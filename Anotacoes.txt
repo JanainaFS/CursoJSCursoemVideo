@@ -128,3 +128,12 @@ switch (expressão) {
     default:
         break
 }
+
+//Repetição
+
+while (codicao) {
+    
+}
+do {
+
+}while()
