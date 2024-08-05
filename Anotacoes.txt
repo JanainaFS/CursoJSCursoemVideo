@@ -137,3 +137,7 @@ while (codicao) {
 do {
 
 }while()
+
+for(ini; teste; inc){
+    
+}
