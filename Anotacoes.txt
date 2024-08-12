@@ -157,3 +157,7 @@ for(let pos=0; pos<num.length;pos++){
 for(let i in num) {
     
 }
+
+- Pesquisar valor dentro do array - retorna a posição
+Retorna -1 se não encontar
+console.log(num.indexOf(3))
