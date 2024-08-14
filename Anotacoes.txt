@@ -163,3 +163,7 @@ Retorna -1 se não encontar
 console.log(num.indexOf(3))
 
 //Funções
+function acao(param){
+    corpo
+}
+acao(valor)
