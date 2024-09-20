@@ -62,6 +62,7 @@ Lógicos
 || - disjunção(ou)
 Ternário
 teste ? true : false
+
 media >= 7 "Aprovado" : "Reprovado"
 
 //Document Object Model

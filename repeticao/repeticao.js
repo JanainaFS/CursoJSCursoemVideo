@@ -9,6 +9,7 @@ do {
     console.log(`Passo ${i}`)
     i++
 }while (i <= 6) */
+
 console.log('Vai começar...')
 for(i = 1; i <=5; i++){
     console.log(i)
