@@ -40,11 +40,17 @@ const LIST = [
         avatar: 'img/c3po.png'
     }
 ]
+
 const App = new Vue({
     el: '#app',
     data: {
         title: 'Star Wars Lego',
         userName: 'Janaina',
         characteres: LIST
+    },
+    methods: {
+        like(userName) {
+            alert(`O personagem ${userName} recebeu um like!`)
+        }
     }
 })
