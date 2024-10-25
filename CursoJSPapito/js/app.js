@@ -53,7 +53,16 @@ const App = new Vue({
         like(userName){
             alert(`O personagem ${userName} recebeu um like!`)
         },
-        search (){
+        remove(id){
+            const list = this.characteres
+
+            const result = list.filter(item => {
+                return item.id !== id
+            })
+
+            this.characteres = result
+        },
+        search(){
             if (this.searchName == ''){
                 return alert('O campo de busca é obrigatório!')  
             }
