@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -11,37 +12,11 @@
         <h1> {{title}} </h1>
         <small> Olá, {{userName}}</small>
 
-        <div class="item">
-            <img src="img/yoda.png" alt="Yoda">
-            <p>Yoda</p>
-        </div>
-        <div class="item">
-            <img src="img/luke.png" alt="Luke">
-            <p>Luke</p>
-        </div>
-        <div class="item">
-            <img src="img/leia.png" alt="Leia">
-            <p>Leia</p>
-        </div>
-        <div class="item">
-            <img src="img/hansolo.png" alt="Hansolo">
-            <p>Hansolo</p>
-        </div>
-        <div class="item">
-            <img src="img/vader.png" alt="Vader">
-            <p>Vader</p>
-        </div>
-        <div class="item">
-            <img src="img/chewbacca.png" alt="Chewbacca">
-            <p>Chewbacca</p>
-        </div>
-        <div class="item">
-            <img src="img/r2d2.png" alt="R2D2">
-            <p>R2D2</p>
-        </div>
-        <div class="item">
-            <img src="img/c3po.png" alt="C3pO">
-            <p>C3pO</p>
+        <div class="characteres">
+            <div class="item" v-for="item of characteres">
+                <img src="img/yoda.png" alt="Yoda">
+                <p>Yoda</p>
+            </div>
         </div>
     </div>
 
