@@ -46,7 +46,7 @@ const App = new Vue({
     data: {
         title: 'Star Wars Lego',
         userName: 'Janaina',
-        characteres: LIST,
+        characters: LIST,
         searchName: ''
     },
     methods: {
@@ -54,20 +54,20 @@ const App = new Vue({
             alert(`O personagem ${userName} recebeu um like!`)
         },
         remove(id){
-            const list = this.characteres
+            const list = this.characters
 
             const result = list.filter(item => {
                 return item.id !== id
             })
 
-            this.characteres = result
+            this.characters = result
         },
         search(){
             if (this.searchName == ''){
                 return alert('O campo de busca é obrigatório!')  
             }
 
-            const list = this.characteres = LIST
+            const list = this.characters = LIST
 
             const result = list.filter(item => {
                 return item.nome === this.searchName
@@ -76,7 +76,7 @@ const App = new Vue({
             if (result.length <= 0){
                 alert('Nenhum registro encontrado.')
             }else {
-                this.characteres = result
+                this.characters = result
             }
         }
     }
