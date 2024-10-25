@@ -46,11 +46,21 @@ const App = new Vue({
     data: {
         title: 'Star Wars Lego',
         userName: 'Janaina',
-        characteres: LIST
+        characteres: LIST,
+        searchName: ''
     },
     methods: {
-        like(userName) {
+        like(userName){
             alert(`O personagem ${userName} recebeu um like!`)
+        },
+        search (){
+            const list = this.characteres
+
+            const result = list.filter(item => {
+                return item.nome === this.searchName
+            })
+
+            this.characteres = result
         }
     }
 })
